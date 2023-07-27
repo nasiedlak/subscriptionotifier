@@ -2,10 +2,10 @@ import argparse
 import sqlite3
 import os
 
-import setup_db
-import database
-import verify
-import email_dispatcher
+import src.db.setup_db as setup_db
+import src.db.database as database
+import src.utils.verify as verify
+import src.utils.email_dispatcher as email_dispatcher
 
 # function to parse command-line argument for adding, removing, and changing the notification email address
 def create_parser():
