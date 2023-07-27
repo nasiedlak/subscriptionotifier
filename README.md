@@ -57,9 +57,9 @@ This is a command line application. Users enter their email address along with s
     2. Use [Task Scheduler](https://docs.bmc.com/docs/bacr20/using-task-scheduler-to-run-a-nightly-process-907294198.html)
 
 ## Help
-    ```
-    python3 subscription_notifer.py --help
-    ```
+```
+python3 subscription_notifer.py --help
+```
 
 ## Contributing
 
